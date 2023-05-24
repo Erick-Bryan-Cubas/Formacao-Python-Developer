@@ -1,4 +1,6 @@
 # Em Python não existe tecnicamente constantes
+# Por convenção constantes estão em caixa alta
+BRAZILIAN_STATES = ['SP', 'RJ', 'SC', 'RS']
 
 # Variável
 age = 28
