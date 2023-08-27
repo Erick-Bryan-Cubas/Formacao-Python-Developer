@@ -1,7 +1,7 @@
-name = input('Informe o seu nome: ')
-idade = input('Informe a sua idade: ')
+nome = input('Informe o seu nome: ')
+idade = int(input('Informe a sua idade: '))
 
 print(nome, idade)
 print(nome, idade, end="... \n")
-print(none, idade, sep="#", end="... \n")
-print(none, idade, sep="#")
+print(nome, idade, sep="#", end="... \n")
+print(nome, idade, sep="#")
