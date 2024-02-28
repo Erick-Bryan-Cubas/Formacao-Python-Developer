@@ -1,0 +1,25 @@
+A = input()
+B = input()
+C = input()
+
+match (A, B, C):
+    case ('vertebrado', 'ave', 'carnivoro'):
+        resposta = 'aguia'
+    case ('vertebrado', 'ave', 'onivoro'):
+        resposta = 'pomba'
+    case ('vertebrado', 'mamifero', 'onivoro'):
+        resposta = 'homem'
+    case ('vertebrado', 'mamifero', 'herbivoro'):
+        resposta = 'vaca'
+    case ('invertebrado', 'inseto', 'hematofago'):
+        resposta = 'pulga'
+    case ('invertebrado', 'inseto', 'herbivoro'):
+        resposta = 'lagarta'
+    case ('invertebrado', 'anelideo', 'hematofago'):
+        resposta = 'sanguessuga'
+    case ('invertebrado', 'anelideo', 'onivoro'):
+        resposta = 'minhoca'
+    case _:
+        resposta = 'Não identificado'
+
+print(resposta)
